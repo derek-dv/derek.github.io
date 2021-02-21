@@ -62,6 +62,10 @@ h3 {
 
 /* Typography */
 
+section {
+  padding: 5em 2em;
+}
+
 h1 {
   font-size: var(--fs-h1);
 }
@@ -72,12 +76,18 @@ h3 {
   font-size: var(--fs-h3);
 }
 
+.logo__img {
+  width: 5rem;
+  height: 2rem;
+}
+
 .section__title {
   margin-bottom: 0.25em;
 }
 
 .section__title--intro {
   font-weight: var(--fw-regular);
+  margin-bottom: 0em;
 }
 
 .section__title--intro strong {
@@ -87,6 +97,7 @@ h3 {
 
 .section__subtitle {
   font-size: var(--fs-h3);
+  margin: 0;
 }
 
 .section__subtitle--intro,
@@ -96,3 +107,11 @@ h3 {
 }
 
 /* Intro section */
+
+nav {
+  display: none;
+}
+
+.intro {
+  position: relative;
+}
